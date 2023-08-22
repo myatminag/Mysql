@@ -1,3 +1,3 @@
 # Mysql
 
-### Create DB => CREATE DATABASE db name
+#### Create DB => CREATE DATABASE db name
