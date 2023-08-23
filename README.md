@@ -11,10 +11,17 @@
     
 -----------
 
+### Select
+
+##### Select everything => SELECT *;
+##### Select table => SELECT table-name;
+##### Filter => WHERE condition
+
+-----------
+
 ### Table
 
 ##### Create table => CREATE TABLE table-name ();
-##### Select table => SELECT * from table-name;
 ##### Rename table => RENAME TABLE table-name to new-name;
 ##### Add column => ADD col-name varchar();
 ##### Rename column => RENMAE COLUMN col-name to new-name;
