@@ -24,5 +24,6 @@
 
 ### Row
 
-##### Insert row => INSERT INTO table-name
-#####               VALUES ()
+##### Insert row => INSERT INTO table-name => VALUES (field, ...);
+##### Multiple rows => VALUES (), (), (), ();
+##### Insert specific values => INSERT INTO table-name (field, ...)
