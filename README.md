@@ -19,6 +19,13 @@
 
 -----------
 
+### Delete & Update
+
+##### 
+##### Delete => Delete from col-name
+
+-----------
+
 ### Table
 
 ##### Create table => CREATE TABLE table-name ();
