@@ -21,3 +21,8 @@
 ##### Modify column => MODIFY col-name varchar(100);
 ##### Switch column => AFTER col-name;
 ##### First column => FIRST;
+
+### Row
+
+##### Insert row => INSERT INTO table-name
+#####               VALUES ()
