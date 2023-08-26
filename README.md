@@ -41,3 +41,11 @@
 ##### Insert row => INSERT INTO table-name => VALUES (field, ...);
 ##### Multiple rows => VALUES (), (), (), ();
 ##### Insert specific values => INSERT INTO table-name (field, ...)
+
+-----------
+
+### Autocommit, commit, rollback
+
+#### Turn off/on the autocommit => SET AUTOCOMMIT = OFF;
+#### Save the changes => COMMIT;
+#### Undo the transactions that have not been saved => ROLLBACK;
