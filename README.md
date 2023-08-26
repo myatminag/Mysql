@@ -46,6 +46,6 @@
 
 ### Autocommit, commit, rollback
 
-#### Turn off/on the autocommit => SET AUTOCOMMIT = OFF;
-#### Save the changes => COMMIT;
-#### Undo the transactions that have not been saved => ROLLBACK;
+##### Turn off/on the autocommit => SET AUTOCOMMIT = OFF;
+##### Save the changes => COMMIT;
+##### Undo the transactions that have not been saved => ROLLBACK;
