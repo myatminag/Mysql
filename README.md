@@ -8,6 +8,7 @@
 ##### Use DB => USE db-name;
 ##### Drop DB => DROP DATABASE db-name;
 ##### Read only => ALTER DATABASE db-name READ ONLY = 1; (disable read only = 0)
+##### Specify rules for the data in a table => CONSTRAINT
     
 -----------
 
