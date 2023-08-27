@@ -51,3 +51,10 @@
 ##### Turn off/on the autocommit => SET AUTOCOMMIT = OFF;
 ##### Save the changes => COMMIT;
 ##### Undo the transactions that have not been saved => ROLLBACK;
+
+-----------
+
+### WildCard Characters
+
+##### Represents zero or more characters => % ("bl%" finds black, blue, blog)
+##### Represents a single character => _ ("h_t" finds hat, hot, hit)
