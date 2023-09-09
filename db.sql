@@ -1,8 +1,8 @@
 /* 
- * Relational Database Management System (RDMS)
- * Defines database relationships in the form of tables
+ * Relational Database Management System (RDMS).
+ * Defines database relationships in the form of tables.
  * The tables are related to each other - based on data common to each.
- * SQL keywords are NOT case sensitive
+ * SQL keywords are NOT case sensitive.
  */
 
 /* Most Important SQL commands */
