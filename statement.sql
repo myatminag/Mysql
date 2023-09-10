@@ -1,22 +1,9 @@
 /* 
  * CREATE DATABASE is used to create a new SQL database.
+ * CREATE TABLE is used to create a new table in a database.
  */
 
 CREATE DATABASE db_name;
-
-----------------------------------------------------------------------
-
-/* 
- * DROP DATABASE is used to drop an existing SQL database.
- */
-
-DROP DATABASE db_namel
-
-----------------------------------------------------------------------
-
-/* 
- * CREATE TABLE is used to drop an existing SQL database.
- */
 
 CREATE TABLE table_name (
     column1 datatype,
@@ -29,6 +16,28 @@ CREATE TABLE table_name (
 CREATE TABLE new_table AS
 SELECT *
 FROM existing_table;
+
+----------------------------------------------------------------------
+
+/* 
+ * DROP DATABASE is used to drop an existing SQL database.
+ * DROP TABLE is used to drop an existing table in a database.
+ */
+
+DROP DATABASE db_name;
+
+DROP TABLE table_name;
+
+----------------------------------------------------------------------
+
+/* 
+ * ALTER TABLE is used to add, delete, or modify columns in an existing table.
+ */
+
+ALTER TABLE table_name
+ADD column_name datatype;  /* To add a column */
+DROP COLUMN column_name; /* To delete a column */
+MODIFY COLUMN column_name datatype; /* To change the data type of a column */
 
 ----------------------------------------------------------------------
 
