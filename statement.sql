@@ -1,4 +1,38 @@
 /* 
+ * CREATE DATABASE is used to create a new SQL database.
+ */
+
+CREATE DATABASE db_name;
+
+----------------------------------------------------------------------
+
+/* 
+ * DROP DATABASE is used to drop an existing SQL database.
+ */
+
+DROP DATABASE db_namel
+
+----------------------------------------------------------------------
+
+/* 
+ * CREATE TABLE is used to drop an existing SQL database.
+ */
+
+CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    column3 datatype,
+   ....
+);
+
+/* Create table using another table */
+CREATE TABLE new_table AS
+SELECT *
+FROM existing_table;
+
+----------------------------------------------------------------------
+
+/* 
  * SELECT is used to select data from a database.
  * Data returned is stored in a result table, called the result-set.
  */

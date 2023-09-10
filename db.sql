@@ -6,6 +6,8 @@
  */
 
 /* Most Important SQL commands */
+
+
 UPDATE - updates data in a database
 DELETE - deletes data from a database
 INSERT INTO - inserts new data into a database
