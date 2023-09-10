@@ -35,3 +35,21 @@ VALUES (
 )
 
 ----------------------------------------------------------------------
+
+/* 
+ * UPDATE is used to modify the existing records in a table.
+ * If you omit the WHERE clause, ALL records will be updated!
+ */
+
+UPDATE table_name
+SET column_1 = value_1, column_2 = value_2, ...
+WHERE condition;
+
+----------------------------------------------------------------------
+
+/* 
+ * DELETE is used to delete existing records in a table.
+ */
+
+DELETE FROM table_name 
+WHERE condition;
